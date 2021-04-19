@@ -20,28 +20,28 @@
       <tr>
         <td colspan="4"><input type="text" name="display" id="display" disabled></td>
       <tr>
-        <td><input type="button" value="1"></td>
-        <td><input type="button" value="2"></td>
-        <td><input type="button" value="3"></td>
-        <td><input type="button" value="+"></td>
+        <td><input type="button" value=1 onclick="setNumber(value)"></td>
+        <td><input type="button" value=2 onclick="setNumber(value)"></td>
+        <td><input type="button" value=3 onclick="setNumber(value)"></td>
+        <td><input type="button" value="+" onclick="setOperator(value)"></td>
       </tr>
       <tr>
-        <td><input type="button" value="4"></td>
-        <td><input type="button" value="5"></td>
-        <td><input type="button" value="6"></td>
-        <td><input type="button" value="-"></td>
+        <td><input type="button" value=4 onclick="setNumber(value)"></td>
+        <td><input type="button" value=5 onclick="setNumber(value)"></td>
+        <td><input type="button" value=6 onclick="setNumber(value)"></td>
+        <td><input type="button" value="-" onclick="setOperator(value)"></td>
       </tr>
       <tr>
-        <td><input type="button" value="7"></td>
-        <td><input type="button" value="8"></td>
-        <td><input type="button" value="9"></td>
-        <td><input type="button" value="*"></td>
+        <td><input type="button" value=7 onclick="setNumber(value)"></td>
+        <td><input type="button" value=8 onclick="setNumber(value)"></td>
+        <td><input type="button" value=9 onclick="setNumber(value)"></td>
+        <td><input type="button" value="*" onclick="setOperator(value)"></td>
       </tr>
       <tr>
-        <td><input type="button" value="C"></td>
-        <td><input type="button" value="0"></td>
-        <td><input type="button" value="="></td>
-        <td><input type="button" value="/"></td>
+        <td><input type="button" value="C" onclick="clearValues()"></td>
+        <td><input type="button" value=0 onclick="setNumber(value)"></td>
+        <td><input type="button" value="=" onclick="equals()"></td>
+        <td><input type="button" value="/" onclick="setOperator(value)"></td>
       </tr>
     </table>
 
