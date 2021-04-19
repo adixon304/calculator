@@ -62,6 +62,7 @@ function clearValues() {
     number1 = 0;
     number2 = 0;
     operator = '';
+    document.getElementById('decimal').disabled = false;
     clearDisplay();
 }
 
