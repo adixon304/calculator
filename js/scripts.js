@@ -40,7 +40,7 @@ function clearDisplay() {
 }
 
 function setNumber(numberValue) {
-    if (number1 == 0 || number2 == 0) {
+    if (number1 == 0 && number2 == 0) {
         document.getElementById('display').value = document.getElementById('display').value + numberValue;
     } else {
         document.getElementById('display').value = numberValue;
